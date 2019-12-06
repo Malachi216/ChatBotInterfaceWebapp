@@ -1,0 +1,85 @@
+<!doctype html>
+	<html>
+		<head>
+			<title>Chat Box</title>
+            <link rel="stylesheet" href="Styles.css">
+            
+		</head>
+		
+		<body>
+			<div id="container">
+                <aside>
+                    <header>
+                        <input type="text" placeholder="search">
+                    </header>
+                    <ul>
+                        <li>
+                            <img class="bot" src="botPic.PNG">
+                            <div>
+                                <h2>Chat Bot</h2>
+                                <h3>
+                                    <span class="status green"></span>
+                                    online
+                                </h3>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </aside>
+                <main id="Main">
+                    <header>
+                        <img class="bot" src="botPic.PNG">
+                        <div>
+                            <h2 id = "bothead">Chat with Bot</h2>
+                            
+                        </div>
+                        <img src="ico_star.png">
+                    </header>
+                    <ul id="chat">
+                            <li class="you" id="textdisplay">
+                                    <div >
+                                        <div class="entete">
+                                            <span class="status green"></span>
+                                            <h2>Chat Bot</h2>
+                                            <h3 id = "youtime">Today</h3>
+                                        </div>
+                                        <div class="triangle"></div>
+                                        <div class="message" id="mess1">
+                                            ipsum dolor sit amet.
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="me" id='wet'>
+                                        <div class="entete">
+                                            <h3 id="metime">Today</h3>
+                                            <h2>Me</h2>
+                                            <span class="status blue"></span>
+                                        </div>
+                                        <div class="triangle" id="tringe"></div>
+                                        <div class="message" id="mess2">
+                                            nean commodo ligula eget dolor.
+                                        </div>
+                                    </li>
+                            <li class="you" id="re">
+                                    <div >
+                                        <div class="entete">
+                                            <span class="status green"></span>
+                                            <h2>Chat Bot</h2>
+                                            <h3>Today</h3>
+                                        </div>
+                                        <div class="triangle"></div>
+                                        <div class="message">
+                                            Hello, this is a ChatBot.
+                                        </div>
+                                    </div>
+                                </li>
+                    </ul>
+                    <footer id="yash">
+                            <textarea placeholder="Type your message" id = "uservalue"></textarea>
+                            <a id="sendButton">Send</a>
+                    </footer>
+                </main>
+            </div>
+            <script src="JavaScript.js"></script>
+		</body>
+	</html>
